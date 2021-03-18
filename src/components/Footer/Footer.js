@@ -7,6 +7,7 @@ Design Credit:
 */
 import React from "react";
 import { Link } from "react-router-dom";
+import "./footer.css";
 // reactstrap components
 import {
   Button,
@@ -51,7 +52,7 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h1 className="title">YunusBinKhalid</h1>
+            <h1 className="title logo-name" >Pious-Dev</h1>
           </Col>
           <Col md="3">
             <Nav>
