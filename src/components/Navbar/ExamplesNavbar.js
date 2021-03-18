@@ -114,7 +114,7 @@ export default function ExamplesNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/#"
+                href="https://twitter.com/PiousDev"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Follow us on Twitter"
@@ -126,7 +126,7 @@ export default function ExamplesNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/#"
+                href="https://www.facebook.com/solayunus#"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Like us on Facebook"
@@ -138,7 +138,7 @@ export default function ExamplesNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/#"
+                href="https://www.instagram.com/solayunus#"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Follow us on Instagram"

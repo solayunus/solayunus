@@ -8,6 +8,7 @@ Adopted Design By:
 */
 import React from "react";
 import classnames from "classnames";
+import Top from "../components/topbutton/Top"
 // javascript plugin used to create scrollbars on windows
 import PerfectScrollbar from "perfect-scrollbar";
 // reactstrap components
@@ -438,6 +439,7 @@ export default function ProfilePage() {
           </Container>
         </section>
         <Footer />
+        <Top />
       </div>
     </>
   );

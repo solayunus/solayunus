@@ -52,7 +52,7 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h1 className="title logo-name" >Pious-Dev</h1>
+            <h1 className="title logo-name"> Pious-Dev</h1>
           </Col>
           <Col md="3">
             <Nav>
@@ -62,13 +62,13 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/landing-page" tag={Link}>
-                  Landing
+                <NavLink to="/Project" tag={Link}>
+                  Projects
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/register-page" tag={Link}>
-                  Register
+                <NavLink to="/Blog" tag={Link}>
+                  Blog
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -82,12 +82,12 @@ export default function Footer() {
             <Nav>
               <NavItem>
                 <NavLink href="#" onClick={scrollToContact}>
-                  Contact Us
+                  Contact
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#" onClick={scrollToHome}>
-                  About Us
+                  About
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -97,7 +97,7 @@ export default function Footer() {
               </NavItem>
               <NavItem>
                 <NavLink href="#">
-                  License
+
                 </NavLink>
               </NavItem>
             </Nav>
@@ -127,7 +127,7 @@ export default function Footer() {
                 <i className="fab fa-facebook-square" />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip230450801">
-                Like us
+                Like Me
               </UncontrolledTooltip>
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
@@ -139,7 +139,19 @@ export default function Footer() {
                 <i className="fab fa-linkedin" />
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip318450378">
-                Follow us
+                Follow Me
+              </UncontrolledTooltip>
+              <Button
+                className="btn-icon btn-neutral btn-round btn-simple"
+                color="default"
+                href="https://www.youtube.com/in/yunuskareem"
+                id="tooltip318450374"
+                target="_blank"
+              >
+                <i className="fab fa-youtube" />
+              </Button>
+              <UncontrolledTooltip delay={0} target="tooltip318450374">
+                Join Me
               </UncontrolledTooltip>
             </div>
           </Col>
