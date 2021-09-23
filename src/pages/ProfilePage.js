@@ -30,25 +30,9 @@ import {
 import ExamplesNavbar from '../components/Navbar/ExamplesNavbar';
 import Footer from '../components/Footer/Footer.js';
 import Profile from '../components/Profile/profile.js';
-
-const carouselItems = [
-  {
-    src: require('../assets/img/denys.jpg').default,
-    altText: 'Slide 1',
-    caption: 'Big City Life, United States',
-  },
-  {
-    src: require('../assets/img/fabien-bazanegue.jpg').default,
-    altText: 'Slide 2',
-    caption: 'Somewhere Beyond, United States',
-  },
-  {
-    src: require('../assets/img/mark-finn.jpg').default,
-    altText: 'Slide 3',
-    caption: 'Stocks, United States',
-  },
-];
-
+import Project from '../components/Project/project.js';
+import Portfolio from '../components/Project/project1';
+import {projectdata} from '../components/Project/ProjectData.js';
 
 export default function ProfilePage() {
 
@@ -57,52 +41,11 @@ export default function ProfilePage() {
       <ExamplesNavbar />
 
       <div className='wrapper'>
-        {/*Profile Section */}
 
         <Profile />
 
-        {/*  Project Section */}
-
-        <div className='section'>
-          <Container>
-            <Row className='justify-content-between'>
-              <Col md='6'>
-                <Row className='justify-content-between align-items-center'>
-                  <UncontrolledCarousel items={carouselItems} />
-                </Row>
-              </Col>
-              <Col md='5'>
-                <h1 className='profile-title text-left'>Projects</h1>
-                <h5 className='text-on-back'>02</h5>
-                <p className='profile-description text-left'>
-                  An artist of considerable range, Ryan — the name taken by
-                  Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music, giving it a warm,
-                  intimate feel with a solid groove structure. An artist of
-                  considerable range.
-                </p>
-                <div className='btn-wrapper pt-3'>
-                  <Button
-                    className='btn-simple'
-                    color='primary'
-                    href='#pablo'
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className='tim-icons icon-book-bookmark' /> Bookmark
-                  </Button>
-                  <Button
-                    className='btn-simple'
-                    color='info'
-                    href='#pablo'
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className='tim-icons icon-bulb-63' /> Check it!
-                  </Button>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+         <Project />
+        {/* <Portfolio data={projectdata}/> */}
 
         {/* Contact US section */}
 
