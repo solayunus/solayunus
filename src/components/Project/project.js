@@ -35,9 +35,9 @@ function Project() {
             <Row className='justify-content-between'>
               <Col md='6'>
                 <Row className='justify-content-between align-items-center'>
-                  <a href="html.com">
+
                       <UncontrolledCarousel items={carouselItems} />
-                  </a>
+                 
                 </Row>
               </Col>
               <Col md='5'>
