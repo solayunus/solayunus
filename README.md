@@ -2,9 +2,9 @@
 
 ## I'm Yunus Olusola Kareem - [@PiousDev](https://yunuskareem.netlify.app)
 
-## I'm a Full Stack Developer & a Trainner!!
+## I'm a Software Security Engineer & a Trainner!!
 
-- 🔭 I’m currently working on building apps using react and Node Js
+- 🔭 I’m currently working on building secured apps using react and Node Js
 - 🌱 I’m Passionate about solving security and blockchain problem using code 
 - 👯 I’m looking to collaborate with other devs
 - 📫 Feel free to reach out to me through social media or by email
